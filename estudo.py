@@ -22,3 +22,8 @@ numbers = [ 1, 3, 10, 25, 10, 2]
 for number in numbers :
     # Concatenacao de strings e typecasting uma vez que a variavel number é do tipo int
     print("current number: " + str(number))
+
+# A funcao sorted retorna uma nova array com elementos ordenados em ascendente.
+# Essa funcao possui parametros para customizar a forma como ordena ou se vai fazer uma sequencia decrescente
+orderedNumbers = sorted(numbers)
+print(orderedNumbers)
